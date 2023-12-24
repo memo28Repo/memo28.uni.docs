@@ -10,33 +10,33 @@ import {
   watchEffect
 } from "./chunk-IAKOMFOO.js";
 
-// ../../../../Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/index.js
-import "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
+// ../../../../node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/index.js
+import "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
 
-// ../../../../Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/without-fonts.js
-import "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
-import "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/styles/base.css";
-import "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
-import "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
-import "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
-import "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
-import "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
-import "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
-import VPBadge from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import Layout from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import { default as default2 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
-import { default as default3 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
-import { default as default4 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default5 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default6 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default7 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default8 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
-import { default as default9 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default10 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default11 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default12 } from "/Users/devops/Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+// ../../../../node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/without-fonts.js
+import "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
+import "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/styles/base.css";
+import "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
+import "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
+import "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
+import "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
+import "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
+import "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
+import VPBadge from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import Layout from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/Layout.vue";
+import { default as default2 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPImage.vue";
+import { default as default3 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPButton.vue";
+import { default as default4 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default5 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default6 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default7 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default8 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPSponsors.vue";
+import { default as default9 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default10 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default11 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default12 } from "/Users/devops/node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 
-// ../../../../Library/pnpm/global/5/.pnpm/@vueuse+shared@10.5.0_vue@3.3.7/node_modules/@vueuse/shared/index.mjs
+// ../../../../node_modules/.pnpm/@vueuse+shared@10.7.0_vue@3.3.11/node_modules/@vueuse/shared/index.mjs
 function tryOnScopeDispose(fn) {
   if (getCurrentScope()) {
     onScopeDispose(fn);
@@ -48,10 +48,11 @@ function toValue(r) {
   return typeof r === "function" ? r() : unref(r);
 }
 var isClient = typeof window !== "undefined" && typeof document !== "undefined";
+var isWorker = typeof WorkerGlobalScope !== "undefined" && globalThis instanceof WorkerGlobalScope;
 var isIOS = getIsIOS();
 function getIsIOS() {
-  var _a;
-  return isClient && ((_a = window == null ? void 0 : window.navigator) == null ? void 0 : _a.userAgent) && /iP(ad|hone|od)/.test(window.navigator.userAgent);
+  var _a, _b;
+  return isClient && ((_a = window == null ? void 0 : window.navigator) == null ? void 0 : _a.userAgent) && (/iP(ad|hone|od)/.test(window.navigator.userAgent) || ((_b = window == null ? void 0 : window.navigator) == null ? void 0 : _b.maxTouchPoints) > 2 && /iPad|Macintosh/.test(window == null ? void 0 : window.navigator.userAgent));
 }
 function cacheStringFunction(fn) {
   const cache = /* @__PURE__ */ Object.create(null);
@@ -70,7 +71,7 @@ function identity(arg) {
   return arg;
 }
 
-// ../../../../Library/pnpm/global/5/.pnpm/@vueuse+core@10.5.0_vue@3.3.7/node_modules/@vueuse/core/index.mjs
+// ../../../../node_modules/.pnpm/@vueuse+core@10.7.0_vue@3.3.11/node_modules/@vueuse/core/index.mjs
 var defaultWindow = isClient ? window : void 0;
 var defaultDocument = isClient ? window.document : void 0;
 var defaultNavigator = isClient ? window.navigator : void 0;
@@ -183,22 +184,22 @@ var _TransitionPresets = {
 };
 var TransitionPresets = Object.assign({}, { linear: identity }, _TransitionPresets);
 
-// ../../../../Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/shared.js
+// ../../../../node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/shared.js
 var inBrowser = typeof document !== "undefined";
 
-// ../../../../Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/support/utils.js
+// ../../../../node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/support/utils.js
 import { withBase } from "vitepress";
 
-// ../../../../Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/composables/data.js
+// ../../../../node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/composables/data.js
 import { useData as useData$ } from "vitepress";
 var useData = useData$;
 
-// ../../../../Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/support/utils.js
+// ../../../../node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/support/utils.js
 function ensureStartingSlash(path) {
   return /^\//.test(path) ? path : `/${path}`;
 }
 
-// ../../../../Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/support/sidebar.js
+// ../../../../node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/support/sidebar.js
 function getSidebar(_sidebar, path) {
   if (Array.isArray(_sidebar))
     return addBase(_sidebar);
@@ -241,7 +242,7 @@ function addBase(items, _base) {
   });
 }
 
-// ../../../../Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/composables/sidebar.js
+// ../../../../node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/composables/sidebar.js
 function useSidebar() {
   const { frontmatter, page, theme: theme2 } = useData();
   const is960 = useMediaQuery("(min-width: 960px)");
@@ -304,7 +305,7 @@ if (inBrowser) {
   });
 }
 
-// ../../../../Library/pnpm/global/5/.pnpm/vitepress@1.0.0-rc.24_@algolia+client-search@4.20.0_@types+node@12.20.55_search-insights@2.9.0_typescript@5.1.6/node_modules/vitepress/dist/client/theme-default/without-fonts.js
+// ../../../../node_modules/.pnpm/vitepress@1.0.0-rc.31_@algolia+client-search@4.22.0_search-insights@2.13.0/node_modules/vitepress/dist/client/theme-default/without-fonts.js
 var theme = {
   Layout,
   enhanceApp: ({ app }) => {

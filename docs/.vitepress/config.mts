@@ -1,35 +1,48 @@
 /*
  * @Author: @memo28.repo
  * @Date: 2023-12-15 23:45:17
- * @LastEditTime: 2023-12-16 00:18:31
- * @Description: 
+ * @LastEditTime: 2023-12-23 23:19:30
+ * @Description:
  * @FilePath: /memo28.uni.docs/docs/.vitepress/config.mts
  */
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "memo28",
-  description: "A VitePress Site",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
+    title: "memo28.uni",
+    description: "A VitePress Site",
+    themeConfig: {
+        // https://vitepress.dev/reference/default-theme-config
+        nav: [
+            // { text: 'Home', link: '/' },
+            {
+                text: '其他资源', items: [
+                    {text: 'memo28.business', link: '/memo28.business'},
+                    {text: 'memo28', link: '/memo28'},
+                ]
+            }
+        ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+        sidebar: [
+            // {
+            //   text: 'exp',
+            //   items: [
+            //     { text: 'Markdown Examples', link: '/markdown-examples' },
+            //     { text: 'Runtime API Examples', link: '/api-examples' }
+            //   ]
+            // },
+            {
+                text: 'uniConfigurationParsing',
+                items: [
+                    {text: '快速开始', link: '/uniConfigurationParsing/guide'},
+                    {text: '为什么使用？', link: '/uniConfigurationParsing/whyuse'},
+                    {text: '如何使用', link: '/uniConfigurationParsing/howuse'},
+                ]
+            }
+        ],
+
+        socialLinks: [
+            {icon: 'github', link: 'https://github.com/memo28-space-cmd'}
         ]
-      }
-    ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  }
+    }
 })

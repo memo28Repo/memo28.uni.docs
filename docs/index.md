@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 查看示例
-      link: /markdown-examples
+      link: /uniConfigurationParsing/guide
     - theme: alt
       text: API 文档
-      link: /api-examples
+      link: /uniConfigurationParsing/guide
 
 features:
   # - title: Feature A
