@@ -209,6 +209,13 @@ config.androidPermissionsConfigSpeech
 config.androidPermissionsConfigPositioning
 ```
 
+#### 配置wifi
+
+```ts
+config.addWifi()
+```
+
+
 
 
 
