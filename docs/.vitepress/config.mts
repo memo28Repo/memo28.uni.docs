@@ -38,6 +38,13 @@ export default defineConfig({
                     {text: '为什么使用？', link: '/uniConfigurationParsing/whyuse'},
                     {text: '如何使用', link: '/uniConfigurationParsing/howuse'},
                 ]
+            },
+            {
+                text: '@memo28.uni/wifi',
+                items: [
+                    {text: '快速开始', link: '/@memo28.uni-wifi/guide'},
+                    {text: '如何使用', link: '/@memo28.uni-wifi/howuse'},
+                ]
             }
         ],
 
