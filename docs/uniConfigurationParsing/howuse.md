@@ -209,11 +209,22 @@ config.androidPermissionsConfigSpeech
 config.androidPermissionsConfigPositioning
 ```
 
+#### 配置uniPush (V1 | V2)
+
+```ts
+config.androidPermissionsConfigPush
+```
+
+
 #### 配置wifi
 
 ```ts
 config.addWifi()
 ```
+
+
+
+
 
 
 
