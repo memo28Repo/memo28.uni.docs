@@ -25,6 +25,18 @@ initWifi()
 :::
 
 
+## stopWifi
+
+停止 `wifi` 模块
+
+并且停止所有注册的网络监听
+
+```ts
+import { stopWifi } from '@memo28.uni/wifi'
+
+stopWifi()
+```
+
 
 ## getMac
 
