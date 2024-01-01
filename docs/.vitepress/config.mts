@@ -40,6 +40,23 @@ export default defineConfig({
                 ]
             },
             {
+                text: 'dynamicallyGeneratePages',
+                items: [
+                    {
+                        text: '快速开始',
+                        link: '/dynamicallyGeneratePages/guide'
+                    },
+                    {
+                        text: '配置页面',
+                        link: '/dynamicallyGeneratePages/pageConfig'
+                    },
+                    {
+                        text: '配置项目',
+                        link: '/dynamicallyGeneratePages/project.config'
+                    },
+                ]
+            },
+            {
                 text: '@memo28.uni/wifi',
                 items: [
                     {text: '快速开始', link: '/@memo28.uni-wifi/guide'},

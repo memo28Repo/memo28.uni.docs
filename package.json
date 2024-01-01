@@ -5,5 +5,8 @@
     "docs:preview": "vitepress preview docs",
     "cz": "git add . && pnpm cz-customizable",
     "installAll": "pnpm install"
+  },
+  "dependencies": {
+    "vitepress": "1.0.0-rc.34"
   }
 }
