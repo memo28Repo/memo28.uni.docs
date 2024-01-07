@@ -62,7 +62,17 @@ export default defineConfig({
                     {text: '快速开始', link: '/@memo28.uni-wifi/guide'},
                     {text: '如何使用', link: '/@memo28.uni-wifi/howuse'},
                 ]
-            }
+            },
+            {
+                text: '@memo28.uni/utils',
+                items: [
+                    {text: '快速开始', link: '/@memo28Uni-utils/guide'},
+                    {text: 'env.API', link: '/@memo28Uni-utils/env'},
+                    {text: 'page.API', link: '/@memo28Uni-utils/page'},
+                    {text: 'media.API', link: '/@memo28Uni-utils/media'},
+                    {text: 'router.API', link: '/@memo28Uni-utils/router'},
+                ]
+            },
         ],
 
         socialLinks: [

@@ -1,0 +1,42 @@
+name: 'deployment to Tencent Cloud Server'
+
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Set up SSH connection
+        uses: webfactory/ssh-agent@v0.5.4
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add server's host key
+        run: ssh-keyscan -H 101.43.239.215 >> ~/.ssh/known_hosts
+
+
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: pnpm install
+        run: npm i pnpm@latest -g
+
+      - name: build
+        run: pnpm install && pnpm run docs:build
+
+      - name: change the folder name
+        run:  mv ./docs/.vitepress/dist ./memo28.uni
+
+      - name: Deploy to Tencent Cloud Server
+        run: scp -v -r ./memo28.uni/* root@101.43.239.215:/usr/src/memo28.uni
