@@ -14,11 +14,10 @@ export default defineConfig({
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         nav: [
-            // { text: 'Home', link: '/' },
             {
-                text: '其他资源', items: [
-                    {text: 'memo28.business', link: '/memo28.business'},
-                    {text: 'memo28', link: '/memo28'},
+                text: 'memo.repo', items: [
+                    {text: 'memo28.business', link: 'http://101.43.239.215:8081/'},
+                    {text: 'memo28', link: 'http://101.43.239.215:8082/'},
                 ]
             }
         ],
