@@ -33,7 +33,7 @@ export default defineConfig({
     // 当你的页面缺少 dycPage.config.ts 文件时是否自动创建补齐
     whetherMakeUpTheConfig: true,
     // 创建 dycPage.config 的文件后缀是什么？
-    whetherMakeUpTheConfigFileSuffix: 'ts'
+    whetherMakeUpTheConfigFileSuffix: 'ts',
 
     // 为您生成声明式路由配置文件
     generateClaimsRoute:'./router/dycRouter.ts'

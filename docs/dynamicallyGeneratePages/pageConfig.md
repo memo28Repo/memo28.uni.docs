@@ -13,6 +13,11 @@ outline: deep
 
 :::
 
+```shell
+touch dyc.config.ts
+```
+
+
 
 执行脚本
 

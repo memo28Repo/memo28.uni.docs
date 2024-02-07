@@ -49,6 +49,10 @@ npm pkg set script.mut:mode='uni-configuration-parsing dev --m=test'
 
 复制以下内容到 `mut.config.ts` 中
 
+:::info
+`mut.config.ts` 文件应该放在 `manifest.json` 同级
+:::
+
 ```ts
 import { ParsingConfiguration, UniConfigurationParsingOptions } from '@memo28.cmd/uni-configuration-parsing';
 

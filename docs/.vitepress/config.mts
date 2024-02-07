@@ -46,13 +46,13 @@ export default defineConfig({
                         link: '/dynamicallyGeneratePages/guide'
                     },
                     {
-                        text: '配置页面',
-                        link: '/dynamicallyGeneratePages/pageConfig'
-                    },
-                    {
                         text: '配置项目',
                         link: '/dynamicallyGeneratePages/project.config'
                     },
+                    {
+                        text: '配置页面',
+                        link: '/dynamicallyGeneratePages/pageConfig'
+                    }
                 ]
             },
             {
