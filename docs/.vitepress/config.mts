@@ -72,6 +72,13 @@ export default defineConfig({
                     {text: 'router.API', link: '/@memo28Uni-utils/router'},
                 ]
             },
+            {
+                text: '@memo28.uni/canvas',
+                items: [
+                    {text: '快速开始', link: '/@memo28Uni-canvas/guide'},
+                    {text: 'Apis', link: '/@memo28Uni-canvas/API'},
+                ]
+            },
         ],
 
         socialLinks: [
